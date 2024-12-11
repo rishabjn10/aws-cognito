@@ -1,0 +1,15 @@
+[project]
+name = "aws-cognito"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Rishabh Jain (groovi)", email = "rishabjn10@gmail.com"},
+]
+dependencies = ["fastapi[standard]>=0.115.6", "python-dotenv>=1.0.1", "boto3>=1.35.78", "python-jose>=3.3.0", "pydantic>=2.10.3", "isort>=5.13.2", "autopep8>=2.3.1", "flake8>=7.1.1"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
